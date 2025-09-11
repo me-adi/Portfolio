@@ -7,7 +7,9 @@
   --text-secondary: #8B949E; /* Dimmer text for subtitles */
   --accent-color: #00A8FF; /* A vibrant, non-glowy blue */
 }
-
+header {
+  padding: 0;
+}
 body {
   background-color: var(--background-dark);
   font-family: 'Roboto', sans-serif;
@@ -166,4 +168,5 @@ footer .copyright {
 .skill-icon:hover {
   filter: grayscale(0) opacity(1);
   transform: scale(1.1);
+
 }
